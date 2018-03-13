@@ -8,7 +8,7 @@
       <li>Dais Member:</li>
       <li>郇&emsp;非&emsp;&emsp;&emsp;&emsp;University of California, San Diego</li>
       <li>袁&emsp;悦&emsp;&emsp;&emsp;&emsp;七宝德怀特中学</li>
-      <li>Bill&emsp;&emsp;&emsp;&emsp;南京航天航空大学</li>
+      <li>Bill&emsp;&emsp;&emsp;&emsp;&emsp;南京航天航空大学</li>
       <li>徐嘉恒&emsp;&emsp;&emsp;&emsp;University of Ottawa</li>
       <li>龚晨皓&emsp;&emsp;&emsp;&emsp;University of Toronto</li>
 		</ul>

@@ -1,3 +1,7 @@
+const noticeFileList2018ss = [{
+  name: 'NKMUNC2018</br>第一轮通告',
+  src: '/static/file/2018ss/NKMUNC2018ss-第一轮通告.pdf'
+}]
 const noticeFileList2018 = [{
   name: 'NKMUNC2018</br>组委招募通告',
   src: '/static/file/2018/NKMUNC2018-组委招募通告.pdf'
@@ -22,6 +26,9 @@ const noticeFileList2018 = [{
 }, {
   name: 'NKMUNC2018</br>第三轮通告',
   src: '/static/file/2018/NKMUNC2018-第三轮通告.pdf'
+}, {
+  name: 'NKMUNC2018</br>第四轮通告',
+  src: '/static/file/2018/NKMUNC2018-第四轮通告.pdf'
 }]
 const noticeFileList2017ss = [{
   name: 'NKMUNC2017ss</br>组委招募通告',
@@ -188,4 +195,4 @@ const noticeFileList2012 = [{
   src: '/static/file/2012/NKMUNC2012-会议手册.pdf'
 }]
 
-export {noticeFileList2018, noticeFileList2017ss, noticeFileList2017, noticeFileList2016ss, noticeFileList2016, noticeFileList2015, noticeFileList2014, noticeFileList2013, noticeFileList2012}
+export {noticeFileList2018ss, noticeFileList2018, noticeFileList2017ss, noticeFileList2017, noticeFileList2016ss, noticeFileList2016, noticeFileList2015, noticeFileList2014, noticeFileList2013, noticeFileList2012}

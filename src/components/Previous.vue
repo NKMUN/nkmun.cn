@@ -14,6 +14,7 @@
           <li class="tab-item" :class="{'tab-item-active': activeTab === '2016ss'}" @click="changeActiveTab('2016ss')">2016ss</li>
           <li class="tab-item" :class="{'tab-item-active': activeTab === '2017'}" @click="changeActiveTab('2017')">2017</li>
           <li class="tab-item" :class="{'tab-item-active': activeTab === '2017ss'}" @click="changeActiveTab('2017ss')">2017ss</li>
+          <li class="tab-item" :class="{'tab-item-active': activeTab === '2018'}" @click="changeActiveTab('2018')">2018</li>
         </ul>
       </div>
       <div class="intro-list">
@@ -32,6 +33,7 @@
           <Committee2016ss v-if="activeTab === '2016ss'"></Committee2016ss>
           <Committee2017 v-if="activeTab === '2017'"></Committee2017>
           <Committee2017ss v-if="activeTab === '2017ss'"></Committee2017ss>
+          <Committee2018 v-if="activeTab === '2018'"></Committee2018>
         </div>
       </div>
     </div>
@@ -44,7 +46,7 @@
 import Navbar from './Nav'
 import Footbar from './Footer'
 import Copyright from './Copyright'
-import {conference2011, conference2012, conference2013, conference2014, conference2015, conference2016, conference2016ss, conference2017, conference2017ss} from '../assets/PreviousList.js'
+import {conference2011, conference2012, conference2013, conference2014, conference2015, conference2016, conference2016ss, conference2017, conference2017ss, conference2018} from '../assets/PreviousList.js'
 import Committee2012 from './Previous/Committee2012'
 import Committee2013 from './Previous/Committee2013'
 import Committee2014 from './Previous/Committee2014'
@@ -53,6 +55,7 @@ import Committee2016 from './Previous/Committee2016'
 import Committee2016ss from './Previous/Committee2016ss'
 import Committee2017 from './Previous/Committee2017'
 import Committee2017ss from './Previous/Committee2017ss'
+import Committee2018 from './Previous/Committee2018'
 export default {
   name: 'previous',
   components: {
@@ -66,7 +69,8 @@ export default {
     Committee2016,
     Committee2016ss,
     Committee2017,
-    Committee2017ss
+    Committee2017ss,
+    Committee2018
   },
   data () {
     return {
@@ -95,6 +99,8 @@ export default {
           return conference2017
         case '2017ss':
           return conference2017ss
+        case '2018':
+          return conference2018
       }
     }
   },

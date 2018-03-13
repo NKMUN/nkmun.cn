@@ -40,8 +40,13 @@ const conference2017 = {
 }
 const conference2017ss = {
   title: '2017年第二届汇文国际中学生模拟联合国大会暑期峰会',
-  introCN: '2017年第二届暑期峰会邀请到来自全国19个省、市、自治区71所学校的近400名代表参会。大会共设置七个委员会，包括两个中文会场——汇文省经济贸易高峰会、英国犯罪预防和管控政策研讨会，两个中文会场——United Nations High Commissioner for Refugees, Federation Internationale de Football Association，与中国系统（内含国务院分会场、省政府分会场和人大分会场）',
+  introCN: '2017年第二届暑期峰会邀请到来自全国19个省、市、自治区71所学校的近400名代表参会。大会共设置七个委员会，包括两个中文会场——汇文省经济贸易高峰会、英国犯罪预防和管控政策研讨会，两个英文会场——United Nations High Commissioner for Refugees, Federation Internationale de Football Association，与中国系统（内含国务院分会场、省政府分会场和人大分会场）',
+  introEN: ''
+}
+const conference2018 = {
+  title: '2018年第八届汇文国际中学生模拟联合国大会',
+  introCN: '本届汇文国际中学生模拟联合国大会，共设置 15 个分会场，除了汇文历年特色中国系统（内含国务院分会场、省人大分会场、省政府分会场）外，另置中文委员会 8 个，分别是汇文省经济贸易高峰会、联合国非洲经济委员会、1795大革命欧洲停战谈判体系（内含法兰西国民公会分会场、神圣罗马帝国封臣议会分会场、反法同盟分会场）、1938中国学界会议、儿童·育儿会议，少子化社会对策会议合同会议、亚洲基础设施投资开发银行会议。英文委员会 4 个，包括 United Nations Office on Drugs and Crimes, The Third Committee of the General Assembly, The Committee on Data for Science and Technology, United Nations Environment Program。',
   introEN: ''
 }
 
-export {conference2011, conference2012, conference2013, conference2014, conference2015, conference2016, conference2016ss, conference2017, conference2017ss}
+export {conference2011, conference2012, conference2013, conference2014, conference2015, conference2016, conference2016ss, conference2017, conference2017ss, conference2018}

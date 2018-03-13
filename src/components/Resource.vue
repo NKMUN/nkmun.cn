@@ -5,6 +5,7 @@
     <div class="container">
       <div class="tab">
         <ul class="tab-list">
+          <li class="tab-item" :class="{'tab-item-active': activeTab === '2018ss'}" @click="changeActiveTab('2018ss')">2018ss</li>
           <li class="tab-item" :class="{'tab-item-active': activeTab === '2018'}" @click="changeActiveTab('2018')">2018</li>
           <li class="tab-item" :class="{'tab-item-active': activeTab === '2017ss'}" @click="changeActiveTab('2017ss')">2017ss</li>
           <li class="tab-item" :class="{'tab-item-active': activeTab === '2017'}" @click="changeActiveTab('2017')">2017</li>
@@ -46,7 +47,7 @@
 import Navbar from './Nav'
 import Footbar from './Footer'
 import Copyright from './Copyright'
-import {noticeFileList2018, noticeFileList2017ss, noticeFileList2017, noticeFileList2016ss, noticeFileList2016, noticeFileList2015, noticeFileList2014, noticeFileList2013, noticeFileList2012} from '../assets/NoticeFileList.js'
+import {noticeFileList2018ss, noticeFileList2018, noticeFileList2017ss, noticeFileList2017, noticeFileList2016ss, noticeFileList2016, noticeFileList2015, noticeFileList2014, noticeFileList2013, noticeFileList2012} from '../assets/NoticeFileList.js'
 import {bgFileList2018, bgFileList2017ss, bgFileList2017, bgFileList2016ss} from '../assets/BGFileList.js'
 export default {
   name: 'resource',
@@ -57,13 +58,15 @@ export default {
   },
   data () {
     return {
-      activeTab: '2018'
+      activeTab: '2018ss'
     }
   },
   computed: {
     noticeFileList: function () {
       var tab = this.activeTab
       switch (tab) {
+        case '2018ss':
+          return noticeFileList2018ss
         case '2018':
           return noticeFileList2018
         case '2017ss':

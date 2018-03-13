@@ -6,7 +6,7 @@ const bgFileList2018 = [{
   src: '/static/file/2018/NKMUNC2018-1795大革命欧洲停战谈判体系-第一轮更新.pdf'
 }, {
   name: 'NKMUNC2018</br>1938中國學界會議</br>第一轮更新',
-  src: '/static/file/2018/NKMUNC2018-联合国非洲经济委员会-第一轮更新.pdf'
+  src: '/static/file/2018/NKMUNC2018-1938中國學界會議-第一輪更新.pdf'
 }, {
   name: 'NKMUNC2018</br>儿童·育儿会议,少子化社会对策会议合同会议</br>第一轮更新',
   src: '/static/file/2018/NKMUNC2018-儿童·育儿会议,少子化社会对策会议合同会议-第一轮更新.pdf'
@@ -28,6 +28,9 @@ const bgFileList2018 = [{
 }, {
   name: 'NKMUNC2018</br>中国系统</br>第一轮更新',
   src: '/static/file/2018/NKMUNC2018-中国系统-第一轮更新.pdf'
+}, {
+  name: '汇文模联会议通用规则.pdf',
+  src: '/static/file/2018/汇文模联会议通用规则.pdf'
 }]
 const bgFileList2017ss = [{
   name: 'NKMUNC2017ss</br>FIFA</br>The First Update',
